@@ -1,0 +1,4 @@
+ALTER TABLE tablename AUTO_INCREMENT = 1
+..............for encryption and decryption........
+use md5() function.
+forpdf file=https://www.youtube.com/watch?v=1dfkrNA6tlk

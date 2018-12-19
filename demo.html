@@ -1,0 +1,50 @@
+<html>
+         <head>
+                  <title>Bikers Gadget</title>
+                   <meta charset="utf-8">
+                  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                   <link rel="stylesheet" href="page.css">  
+                   <script src="page1.js"></script>  
+                   <script src="jquery.js"></script> 
+  <style>
+         #pass1,#newpass,#conpass{
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 6px 30px 8px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+         #chngpass{
+                            position: relative;
+                                width: 90%;
+                                left: 15;
+                                color: white;
+                                background-color: #4CAF50;
+                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                font-size: 20;
+                                border-radius: 4px;
+
+                            }
+         </style>
+    </head>
+     <body>    
+            <div>
+                    <form onsubmit="return passchange()" name="passform" action="passwordchange.php" method="post" >
+                        <div>
+                          <h5>Recent Password : <input type="password" name="pass1" required /></h5>
+                        <h5>New Password : <input type="password" name="newpass" required /></h5>
+                        <h5>Confirm Password : <input type="password" name="conpass" required /></h5>
+                       <input type="submit" value="Change Password"/>
+                        </div>
+                    </form>
+                  </div>
+</body>
+</html>

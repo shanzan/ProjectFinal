@@ -1,0 +1,34 @@
+Dear sir,
+our project is so big that i can't upload it in vues,
+so I have already send you a email with the attachment of our project file.
+thank you.
+
+subject:web technologies;
+sec:B
+my email id: khanshanzan@gmail.com  
+
+Group member:
+Kabir, Ahsanul		13-23645-1
+Sharif,shahrin		13-24509-2
+Khan S.N.M Shanzan	13-24489-2
+
+
+......Our Work so far................
+#User Can log in.
+#password save in database with encrypted.
+#user can sign up.
+#user can view product.
+#Admin can login.
+#admin can view product.
+#user can change password.
+#user can update his profile.
+#admin can add product.
+#admin can add catagory.
+#admin can add bikes.
+#user order product (first temporary then final).
+#user can delete his order from temporarey file.
+#user can view which product was not delivered what he ordered.
+#user and admin both can log out.
+#Upload product image.
+#view uploaded image with product information.
+...............................................
